@@ -7,7 +7,7 @@ typedef struct dllk
     int info;
     struct dllk *next;
 }node;
-void createnode(node **head,node **tail
+void createnode(node **head,node **tail)
 {
     *head=*tail=NULL;
 }
